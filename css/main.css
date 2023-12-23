@@ -340,6 +340,7 @@
 
 #footer {
   width: 100%;
+  margin-top: 100px;
 }
 #footer .footer__form {
   width: 100%;
@@ -747,6 +748,149 @@
   }
   #hero .container .hero__images img {
     width: 70%;
+  }
+}
+
+#mahsulot {
+  width: 100%;
+  margin-top: 150px;
+}
+#mahsulot .container .mahsulot {
+  width: 100%;
+}
+#mahsulot .container .mahsulot h1 {
+  color: #494B44;
+  text-align: center;
+  font-family: "Inter 700";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 84px */
+  text-transform: uppercase;
+}
+#mahsulot .container .mahsulot .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#mahsulot .container .mahsulot .cards .card {
+  width: 30%;
+  background-color: #F8F8F8;
+  margin-bottom: 20px;
+}
+#mahsulot .container .mahsulot .cards .card .card__img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 27px;
+}
+#mahsulot .container .mahsulot .cards .card .card__img img {
+  width: 50%;
+  height: auto;
+}
+#mahsulot .container .mahsulot .cards .card .card__text {
+  width: 100%;
+  padding-left: 40px;
+}
+#mahsulot .container .mahsulot .cards .card .card__text h3 {
+  color: #000;
+  font-family: "Inter 400";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  text-transform: uppercase;
+}
+#mahsulot .container .mahsulot .cards .card .card__text p {
+  color: #000;
+  font-family: "Inter 400";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+#mahsulot .container .mahsulot .cards .card .card__btn {
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 44px;
+  margin-bottom: 50px;
+}
+#mahsulot .container .mahsulot .cards .card .card__btn a {
+  padding: 17px 24px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter 500";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #0E9E2F;
+  border-radius: 2px;
+}
+#mahsulot .container .mahsulot .cards .clr {
+  background-color: #fff;
+}
+@media only screen and (max-width: 982px) {
+  #mahsulot .container .mahsulot h1 {
+    font-size: 55px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__text {
+    padding-left: 20px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__text h3 {
+    font-size: 20px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__text p {
+    font-style: 14px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__btn {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  #mahsulot .container .mahsulot h1 {
+    font-size: 55px;
+  }
+  #mahsulot .container .mahsulot .cards .card {
+    width: 45%;
+  }
+  #mahsulot .container .mahsulot .cards .card d .card__text {
+    padding-left: 20px;
+  }
+  #mahsulot .container .mahsulot .cards .card d .card__text h3 {
+    font-size: 20px;
+  }
+  #mahsulot .container .mahsulot .cards .card d .card__text p {
+    font-style: 14px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__btn {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  #mahsulot .container .mahsulot h1 {
+    font-size: 40px;
+  }
+  #mahsulot .container .mahsulot .cards {
+    justify-content: center;
+  }
+  #mahsulot .container .mahsulot .cards .card {
+    width: 80%;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__text {
+    padding-left: 20px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__text h3 {
+    font-size: 20px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__text p {
+    font-style: 14px;
+  }
+  #mahsulot .container .mahsulot .cards .card .card__btn {
+    padding-left: 20px;
   }
 }
 
