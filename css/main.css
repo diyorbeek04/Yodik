@@ -648,6 +648,108 @@
   text-align: center;
 }
 
+#hero {
+  width: 100%;
+  background-image: url(../../../assets/images/home/bg-2\ 1.png);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#hero .container h1 {
+  color: #494B44;
+  text-align: center;
+  font-family: "Inter 700";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+#hero .container .hero__text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .container .hero__text .text {
+  width: 45%;
+}
+#hero .container .hero__text .text h2 {
+  color: #0E9E2F;
+  text-align: center;
+  font-family: "Inter 500";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 134%; /* 24.3px */
+  text-transform: uppercase;
+}
+#hero .container .hero__text .text p {
+  color: #92938F;
+  font-family: "Inter 400";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-top: 30px;
+}
+#hero .container .hero__text .img {
+  width: 50%;
+}
+#hero .container .hero__text .img img {
+  width: 100%;
+  height: auto;
+}
+#hero .container .hero__images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#hero .container .hero__images img {
+  width: 30%;
+}
+@media only screen and (max-width: 827px) {
+  #hero .container h1 {
+    font-size: 36px;
+  }
+  #hero .container .hero__text {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #hero .container .hero__text .text {
+    width: 90%;
+  }
+  #hero .container .hero__text .text h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 621px) {
+  #hero .container h1 {
+    font-size: 32px;
+  }
+  #hero .container .hero__text {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #hero .container .hero__text .text {
+    width: 90%;
+  }
+  #hero .container .hero__text .text h2 {
+    font-size: 20px;
+  }
+  #hero .container .hero__text .img {
+    display: none;
+  }
+  #hero .container .hero__images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #hero .container .hero__images img {
+    width: 70%;
+  }
+}
+
 @font-face {
   font-family: "Inter 500";
   src: local(""), url("../fonts/Inter/static/Inter-Medium.ttf") format("woff");
