@@ -754,6 +754,7 @@
 #mahsulot {
   width: 100%;
   margin-top: 150px;
+  position: relative;
 }
 #mahsulot .container .mahsulot {
   width: 100%;
@@ -832,6 +833,16 @@
 }
 #mahsulot .container .mahsulot .cards .clr {
   background-color: #fff;
+}
+#mahsulot .container .mahsulot .cards .bgimg {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../../assets/images/home/line.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -500px;
 }
 @media only screen and (max-width: 982px) {
   #mahsulot .container .mahsulot h1 {
