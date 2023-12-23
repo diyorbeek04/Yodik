@@ -648,6 +648,73 @@
   text-align: center;
 }
 
+.section {
+  background-image: url(/assets/images/blogs/blogs-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.cards-container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.cards-container .cards {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards-container .cards--companent {
+  width: 366px;
+  height: 129px;
+  background-color: aliceblue;
+  margin-bottom: 430px;
+}
+.cards-container .video {
+  width: 100%;
+}
+.cards-container .cards--companent h2 {
+  margin-top: 15px;
+  color: #000;
+  font-family: "inter 500";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.545%;
+}
+.cards-container .cards--companent p {
+  margin-top: 15px;
+  color: #000;
+  font-family: "Inter 400";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 169.432%;
+  /* 23.72px */
+}
+
+@media only screen and (max-width: 705px) {
+  .cards {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .cards--companent {
+    width: auto;
+  }
+  .cards--companent .video {
+    width: 100%;
+  }
+  .cards--companent .cards--companent h2 {
+    width: 100%;
+  }
+  .cards--companent .cards--companent p {
+    width: 100%;
+  }
+}
 @font-face {
   font-family: "Inter 500";
   src: local(""), url("../fonts/Inter/static/Inter-Medium.ttf") format("woff");

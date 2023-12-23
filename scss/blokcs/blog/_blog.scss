@@ -1,0 +1,71 @@
+.section {
+    background-image: url(/assets/images/blogs/blogs-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.cards-container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding:  0 10px;
+    .cards {
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .cards--companent {
+        width: 366px;
+        height: 129px;
+        background-color: aliceblue;
+        margin-bottom: 430px;
+    }
+    .video {
+        width: 100%;
+    }
+    .cards--companent h2 {
+        margin-top: 15px;
+        color: #000;
+        font-family: "inter 500";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 135.545%;
+    }
+    .cards--companent p {
+        margin-top: 15px;
+        color: #000;
+        font-family: "Inter 400";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 169.432%;
+        /* 23.72px */
+    }
+}
+@media only screen  and (max-width:110px){
+    .cards{
+    
+    }
+    
+}
+@media only screen and (max-width:705px) {
+    .cards{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .cards--companent{
+        width: auto;
+        .video{
+            width: 100%;
+        }
+        .cards--companent h2{
+            width: 100%;
+        }
+        .cards--companent p{
+            width: 100%;
+        }
+    }
+}
