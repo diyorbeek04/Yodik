@@ -715,6 +715,153 @@
     width: 100%;
   }
 }
+.main-section {
+  margin-top: 100px;
+  background-image: url(/assets/images/blogs/blogs-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.main-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.main__cards--item {
+  margin-left: 10px;
+  width: 60%;
+}
+
+.main__cards--item h4 {
+  margin-bottom: 10px;
+  color: #202020;
+  font-family: "Rubik";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main__cards--item p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  color: #434343;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.main__cards--item--bottom {
+  display: flex;
+  align-items: center;
+}
+.main__cards--item--bottom span {
+  margin-left: 5px;
+  color: #7688A4;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 1230px) {
+  .main__cards {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .main__cards--item {
+    margin-bottom: 60px;
+  }
+  .img {
+    margin-bottom: 60px;
+    width: 50%;
+    height: 300px;
+  }
+}
+.section {
+  background-image: url(/assets/images/blogs/blogs-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.card-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.card--companent {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.card--companent--left {
+  margin: 0px;
+  margin-right: 60px;
+}
+
+.card--companent--left h3 {
+  margin: 0px;
+  padding: 0px;
+  color: #334DA6;
+  font-family: "Inter 500";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145.227%;
+  /* 52.282px */
+}
+
+.card--companent--left p {
+  color: var(--Main-TextGrey, #383E5E);
+  font-family: "Inter 400";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 181.534%;
+  /* 36.307px */
+  width: 508px;
+}
+
+.img {
+  margin-right: 60px;
+}
+
+@media only screen and (max-width: 1247px) {
+  .card--companent {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .card--companent .img--left {
+    margin-bottom: 60px;
+    width: 50%;
+  }
+  .card--companent .img--right {
+    margin-bottom: 60px;
+    width: 50%;
+  }
+  .card--companent .card--companent--left {
+    margin-bottom: 30px;
+  }
+}
 @font-face {
   font-family: "Inter 500";
   src: local(""), url("../fonts/Inter/static/Inter-Medium.ttf") format("woff");
