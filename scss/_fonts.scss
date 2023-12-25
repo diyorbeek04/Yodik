@@ -11,6 +11,7 @@
     src: local(''),
     url("../fonts/Inter/static/Inter-Regular.ttf") format("woff");
 }
+
 // INTER 700
 @font-face {
     font-family: "Inter 700";
@@ -18,3 +19,30 @@
     url("../fonts/Inter/static/Inter-Bold.ttf") format("woff");
 }
 
+// RUBIK 500
+@font-face {
+    font-family: "Rubik 500";
+    src: local(''),
+    url("../fonts/Rubik/static/Rubik-Medium.ttf") format("woff");
+}
+
+// RUBIK 400
+@font-face {
+    font-family: "Rubik 500";
+    src: local(''),
+    url("../fonts/Rubik/static/Rubik-Regular.ttf") format("woff");
+}
+
+// ROBOTO 500
+@font-face {
+    font-family: "Roboto 500";
+    src: local(''),
+    url("../fonts/Roboto/Roboto-Medium.ttf") format("woff");
+}
+
+// ROBOTO 400
+@font-face {
+    font-family: "Roboto 400";
+    src: local(''),
+    url("../fonts/Roboto/Roboto-Regular.ttf") format("woff");
+}

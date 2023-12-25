@@ -1127,6 +1127,128 @@
   }
 }
 
+#section {
+  width: 100%;
+}
+#section .container .section h2 {
+  color: #000;
+  font-family: "Rubik 500";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#section .container .section p {
+  color: #7688A4;
+  font-family: "Rubik 400";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+}
+#section .container .section .big__box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+#section .container .section .big__box .box {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+}
+#section .container .section .big__box .box img {
+  width: 100%;
+}
+#section .container .section .big__box .box p {
+  color: #000;
+  font-family: "Roboto 400";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+}
+#section .container .section .big__box .box p .text__one {
+  color: #000;
+  font-family: "Roboto 500";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#section .container .section .big__box .box p .text__two {
+  color: #000;
+  font-family: "Roboto 500";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+#section .container .section .big__box .cards {
+  width: 32%;
+}
+#section .container .section .big__box .cards .card {
+  width: 100%;
+  color: #202020;
+  font-family: "Rubik 500";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+#section .container .section .big__box .cards .card .card__img {
+  width: 90%;
+  margin: 0px auto;
+}
+#section .container .section .big__box .cards .card .card__img img {
+  width: 100%;
+}
+#section .container .section .big__box .cards .card h5 {
+  color: #202020;
+  font-family: "Rubik 500";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 10px;
+}
+#section .container .section .big__box .cards .card p {
+  color: #6B6D97;
+  font-family: "Rubik 400";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 805px) {
+  #section .container .section h2 {
+    font-size: 20px;
+  }
+  #section .container .section p {
+    font-size: 12px;
+  }
+  #section .container .section .big__box {
+    flex-direction: column;
+  }
+  #section .container .section .big__box .box {
+    width: 100%;
+  }
+  #section .container .section .big__box .cards {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  #section .container .section .big__box .cards .card {
+    width: 30%;
+  }
+}
+
 @font-face {
   font-family: "Inter 500";
   src: local(""), url("../fonts/Inter/static/Inter-Medium.ttf") format("woff");
@@ -1138,6 +1260,22 @@
 @font-face {
   font-family: "Inter 700";
   src: local(""), url("../fonts/Inter/static/Inter-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "Rubik 500";
+  src: local(""), url("../fonts/Rubik/static/Rubik-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "Rubik 500";
+  src: local(""), url("../fonts/Rubik/static/Rubik-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Roboto 500";
+  src: local(""), url("../fonts/Roboto/Roboto-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "Roboto 400";
+  src: local(""), url("../fonts/Roboto/Roboto-Regular.ttf") format("woff");
 }
 * {
   margin: 0;
