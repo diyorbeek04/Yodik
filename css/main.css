@@ -862,6 +862,360 @@
     margin-bottom: 30px;
   }
 }
+.header {
+  width: 100%;
+  height: 740px;
+}
+.header .container .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header .container .navbar .navbar__logo {
+  width: 8%;
+  height: auto;
+}
+.header .container .navbar .navbar__logo img {
+  width: 100%;
+  height: auto;
+}
+.header .container .navbar .navbar__nav {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .navbar .navbar__nav .burger {
+  display: none;
+}
+.header .container .navbar .navbar__nav .navigation {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .navbar .navbar__nav .navigation li a {
+  color: #000;
+  text-align: center;
+  font-family: "Inter 500";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header .container .navbar .navbar__nav .nav__mobile {
+  display: none;
+}
+.header .container .navbar .navbar__nav .contact {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .navbar .navbar__nav .contact .first {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-size: 15px;
+}
+.header .container .navbar .navbar__nav .contact .second {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-size: 14px;
+}
+.header .container .navbar .navbar__nav select {
+  width: 5%;
+  color: #000;
+  text-align: center;
+  font-family: "Inter 500";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.companent-card-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.companent__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 55px;
+  background-image: url(/assets/images/blogs/blogs-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.companent__card--left {
+  margin-top: 100px;
+  width: 75%;
+}
+.companent__card--left h3 {
+  color: #494B44;
+  font-family: "Inter 400";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 84px */
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.companent__card--left strong {
+  color: #494B44;
+  font-feature-settings: "sups" on;
+  font-family: "Inter 300";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 48px */
+  text-transform: uppercase;
+}
+.companent__card--left p {
+  color: #92938F;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 38.4px */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 356px;
+}
+
+.companent__card--right {
+  width: 55%;
+  margin-top: 30px;
+}
+.companent__card--right h3 {
+  color: #0E9E2F;
+  font-family: "Inter 200";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 64px */
+  margin-bottom: 10px;
+}
+.companent__card--right span {
+  color: #0E9E2F;
+  font-family: "Inter 200";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 64px */
+  letter-spacing: 0.8px;
+}
+.companent__card--right .companent__card--right--card {
+  margin: 0;
+}
+.companent__card--right .companent__card--right--card strong {
+  color: #494B44;
+  text-align: center;
+  font-feature-settings: "sups" on;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 48px */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.companent__card--right .companent__card--right--card p {
+  color: #0E9E2F;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 38.4px */
+  margin-bottom: 10px;
+}
+.companent__card--right .companent__card--right--card small {
+  color: #494B44;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 38.4px */
+}
+
+.companent__card--right--card--1 {
+  margin-top: 50px;
+}
+.companent__card--right--card--1 h4 {
+  color: #494B44;
+  font-feature-settings: "sups" on;
+  font-family: "Inter ";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+.companent__card--right--card--1 p {
+  color: #0E9E2F;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 38.4px */
+  margin-bottom: 10px;
+}
+.companent__card--right--card--1 small {
+  color: #494B44;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 38.4px */
+  display: block;
+  margin-bottom: 10px;
+}
+.companent__card--right--card--1 strong {
+  color: #92938F;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 38.4px */
+  margin-bottom: 10px;
+}
+.companent__card--right--card--1 P {
+  color: #0E9E2F;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  /* 38.4px */
+}
+
+.companent-cards {
+  background-image: url(/assets/images/contact/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.companent-cards--form {
+  margin-top: 100px;
+  width: 30%;
+  background-color: #00AB09;
+  opacity: 0.9;
+  padding-top: 55px;
+  padding-left: 54px;
+  padding-bottom: 150px;
+  border-top-right-radius: 100px;
+  height: 530px;
+}
+.companent-cards--form form {
+  width: 100%;
+}
+.companent-cards--form form label {
+  color: #FFF;
+  font-family: "Inter 400";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+.companent-cards--form form input {
+  width: 90%;
+  padding: 15px;
+  color: #92938F;
+  font-family: "Inter 400";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 14.4px */
+  outline: none;
+}
+.companent-cards--form form .boxs {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.companent-cards--form form textarea {
+  width: 90%;
+  padding: 15px;
+  color: #92938F;
+  font-family: "Inter 400";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 14.4px */
+  outline: none;
+}
+.companent-cards--form .text {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 18px;
+  margin-bottom: 40px;
+}
+.companent-cards--form .text i {
+  font-size: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+.companent-cards--form .text p {
+  color: #F2F2F2;
+  font-family: "Inter 400";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.companent-cards--form a {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter 400";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+}
+
+@media only screen and (max-width: 990px) {
+  .companent__card {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
 @font-face {
   font-family: "Inter 500";
   src: local(""), url("../fonts/Inter/static/Inter-Medium.ttf") format("woff");
