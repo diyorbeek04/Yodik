@@ -1,0 +1,109 @@
+#only404{
+    width: 100%;
+    .container{
+        .box{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .text{
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                h1{
+                    color: #000;
+                    font-family: "Inter 700";
+                    font-size: 150px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 240px;
+                }
+                a{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: "Inter 500";
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    border-radius: 2px;
+                    background-color: #0E9E2F;
+                    padding: 17px 26px;
+                }
+            }
+            .image{
+                width: 70%;
+                img{
+                    width: 95%;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 1160px) {
+        .container{
+            width: 95%;
+            .box{
+                .text{
+                    h1{
+                        font-size: 120px;
+                        line-height: 150px;
+                    }
+                }
+                .image{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 757px) {
+        .container{
+            width: 95%;
+            .box{
+                .text{
+                    h1{
+                        font-size: 100px;
+                        line-height: 130px;
+                    }
+                    a{
+                        padding: 12px 20px;
+                        font-size: 12px;
+                    }
+                }
+                .image{
+                    width: 65%;
+
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 631px) {
+        .container{
+            width: 95%;
+            .box{
+                background-image: url(../../../assets/images/404/1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                .text{
+                    width: 90%;
+                    margin: 20px auto;
+                    h1{
+                        font-size: 100px;
+                        line-height: 130px;
+                    }
+                    a{
+                        padding: 12px 20px;
+                        font-size: 12px;
+                    }
+                }
+                .image{
+                    display: none;
+
+                }
+            }
+        }
+    }
+    
+}
